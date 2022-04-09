@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+
+/* Star  Background*/
+.bg-color{
+    background-color:  #1e1f29;
+    background-image: url(/images/bg-stars.svg);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/* Hill Background */
+.bottom-hill {
+    position: absolute;
+    bottom: 0;
+    height: 20vh;
+    background-size: cover;
+    background-image: url(/images/pattern-hills.svg);
+    width: 100%;
+}
+
+/* Content */
+
+.content{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content h3{
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+}
+
+.countdown-items{
+    display: flex;
+}
+
+.number p{
+    font-size: 80px;
+    padding: 1rem 2rem ;
+    color: hsl(345, 95%, 68%);
+    background-color: hsl(236, 21%, 26%);
+}
+
+.countdown-item{
+    margin: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
