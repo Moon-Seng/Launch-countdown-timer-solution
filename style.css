@@ -115,7 +115,89 @@
     cursor: pointer;
 }
 
-.icon:hover{
-    background-color: hsl(345, 95%, 68%);
+.icon path{
+    color: hsl(237, 18%, 59%);
 }
 
+.icon:hover path{
+    color: hsl(345, 95%, 68%);
+}
+
+@media screen and (max-width : 786px) {
+    .content{
+        justify-content: center;
+    }
+
+    .content h3{
+        width: 100%;
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 10rem;
+    }
+
+    .countdown-item{
+        margin: 0 1rem;
+    }
+
+    .number{
+        width: 140px;
+    }
+
+    .number p{
+        font-size: 60px;
+    }
+
+    .bottom-hill{
+        height: 25%;
+    }
+
+    .icon{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width : 450px) {
+    .content h3{
+        font-size: 20px;
+        margin-bottom: 5rem;
+    }
+
+    .countdown-item{
+        margin:0 .5rem;
+    }
+
+    .number{
+        width: 75px;
+    }
+
+    .number p{
+        padding: .5rem;
+        font-size: 40px;
+    }
+
+    .circle{
+        width: 10px;
+        height: 10px;
+    }
+
+    .circle.left{
+        left: -5px;
+    }
+
+    .circle.right{
+        right: -5px;
+    }
+
+    .time{
+        font-size: 8px;
+        letter-spacing: .2rem;
+    }
+
+    .icon{
+        width: 30px;
+        height: 30px;
+        margin: 0 1rem;
+    }
+
+}
